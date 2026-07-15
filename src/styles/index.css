@@ -1,11 +1,45 @@
-/* 
+body{
+    background:#f5f5f5;
+    font-family: Arial, sans-serif;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.container{
+    width:500px;
+    margin:50px auto;
+}
 
-*/
+input{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-bottom:1px solid #ddd;
+    font-size:22px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+li{
+    display:flex;
+    justify-content:space-between;
+    padding:15px;
+    border-bottom:1px solid #ec8ce7;
+    font-size:22px;
+}
+
+span{
+    display:none;
+    cursor:pointer;
+}
+
+li:hover span{
+    display:block;
+}
+
+p{
+    padding:15px;
+    color:rgb(17, 19, 20);
+}
